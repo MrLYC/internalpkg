@@ -3,15 +3,15 @@ package internal
 import "fmt"
 
 type HiGreeter struct {
-	BaseGreeter
+	name string
 }
 
 func (g HiGreeter) Greet() string {
-	return fmt.Sprintf("Hi %s", g.Name())
+	return fmt.Sprintf("Hi %s", g.name)
 }
 
 func NewHiGreeter(name string) HiGreeter {
 	return HiGreeter{
-		BaseGreeter: NewBaseGreeter(name),
+		name: name,
 	}
 }
