@@ -1,4 +1,4 @@
-// go:build import
+// +build import
 
 package main
 
