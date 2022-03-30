@@ -5,7 +5,6 @@ import (
 	"os"
 
 	"github.com/mrlyc/internalpkg/greeting"
-	//_ "github.com/mrlyc/internalpkg/greeting/internal"
 )
 
 func main() {
